@@ -1,0 +1,40 @@
+Question 1:
+A "variable" in Java is something that can store another value. One type of a variable is an "integer", 
+and an integer can store numbers without decimal places. Simply declare two integers named "x" and
+"y", and set them equal to 400. Here is an example of how to make a variable that is an integer:
+	int var = 1000;
+In Java, remember that you must type a semicolon at the end of each line to indicate that the code
+stops there.
+
+Question 2:
+An "if statement" can be used to tell the computer to make a decision in Java. The idea is that "if"
+some condition is met, certain code will be executed. An if statement uses curly braces around the code
+in it. Note that to compare numbers, you can use the greater than or less than signs. Here's an example 
+of an if statement:
+	if(someNumber < anotherNumber) {
+		someNumber = anotherNumber+1;
+	}
+An example of code that can be executed is making words appear on the console window. The "syntax", 
+or the specific words and symbols that must be typed in for this to happen, are "System.out.println(text)".
+This will print a variable of words, called a String, onto the console. Here's a scenario: A programmer
+declared a variable called "students". It is an integer, and it is set equal to some value that you don't know. 
+Make an if statement that checks if this number is more than 30, and if it is, print out the word "No", 
+as if someone is asking whether that number of students can fit in one classroom. For example, if the 
+variable is equal to 25, nothing  will happen. However, if it is equal to 40, "No" is printed to the console.
+NOTE: Use single quotes, not double quotes, for this exercise. 
+
+Question 3:
+A loop can be used to repeat code. This makes a program more efficient, rather than having to type code
+again and again. One useful type of loop is a while loop. In a while loop, code repeats while a certain
+condition is true. The code that repeats is inside curly braces, just like the if statement. For example:
+	while(someNumber > 5) {
+		someNumber--; //someNumber-- means that the integer will decrease by one each time.
+	}
+Always make sure an infinite loop is not created. The loop's conditions should eventually not be met for
+the loop to stop. Your task is to use a while loop to find the sum of the numbers 1 to 100 (inclusive).
+Refrain from including spaces between assignment operators (int x=100, not x = 100), and between the 
+conditions and the curly braces.
+HINT: Two variables are needed. One for the number being added, and one for the total sum. Finally,
+print the variable out at the end. MAKE THE NUMBER VARIABLE "num" AND THE OTHER ONE "sum".
+
+
